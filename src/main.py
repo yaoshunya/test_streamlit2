@@ -4,8 +4,8 @@ from func1 import func
 import os
 
 st.write(os.listdir())
-st.write(os.listdir('..'))
-st.write(os.listdir('../data/'))
+#st.write(os.listdir('..'))
+st.write(os.listdir('data/'))
 
 
 with open('data/user_info.yml') as file:
