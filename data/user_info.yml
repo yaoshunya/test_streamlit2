@@ -1,0 +1,15 @@
+credentials:
+  usernames:
+    sample_store.myshopify.com:
+      name: sample_store
+      password: '$2b$12$1ntfv6kyErbrzVY9bmd5uumQ7aNU9Abxn65oAUGTO5fgzzh2wNhi.' # To be replaced with hashed password
+    sample_store2.myshopify.com:
+      name: sample_store2
+      password: '$2b$12$L82KV7j8sFkt1vIekFXMuOuZfeLZqMfIetO82A4iDIpG8MXlFKQCe' # To be replaced with hashed password
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+preauthorized:
+  emails:
+  - melsby@gmail.com
